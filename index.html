@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header class="header-section">
+      <div class="logo">
+        <a href="#">Foodie Store</a>
+      </div>
+
+      <ul class="nav-links">
+        <li class="nav-item active"><a href="#home-div">Home</a></li>
+        <li class="nav-item"><a href="#offers-div">Offers</a></li>
+        <li class="nav-item"><a href="#top-brands-div">Top brands</a></li>
+        <li class="nav-item"><a href="#best-food-div">Best Foods</a></li>
+        <li class="login-menu nav-item">
+          <a href="#login-div" style="color: white">Login</a>
+        </li>
+        <li class="signup-menu nav-item"><a href="#logout-div">Sign up</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <div id="home-div" class="home-div">
+        <section class="first-home">
+          <img
+            src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png"
+            alt="home-image"
+            width="100%"
+          />
+        </section>
+        <section>
+          <div style="text-align: center" class="home-second-div">
+            <div>
+              <h2 class="search-title">Order the best food & drinks</h2>
+            </div>
+            <input
+              type="search"
+              name="search"
+              class="search-input"
+              placeholder="Search Foods / Drinks..."
+            />
+            <button class="search-button" onclick="enter()">Search</button>
+          </div>
+        </section>
+      </div>
+      <section id="offers-div" class="offers-div offer-main">
+        <h1>Inspiration for your first order</h1>
+        <div class="offers-list">
+          <div>
+            <img
+              src="https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png"
+              alt="biriyani"
+              width="200px"
+            />
+            <h3>Biryani</h3>
+            <span>20% Off</span>
+          </div>
+          <div>
+            <img
+              src="https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png"
+              alt="biriyani"
+              width="200px"
+            />
+            <h3>Chicken</h3>
+            <span>28% Off</span>
+          </div>
+          <div>
+            <img
+              style="border-radius: 500px"
+              src="https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png"
+              alt="biriyani"
+              width="200px"
+            />
+            <h3>Pizza</h3>
+            <span>30% Off</span>
+          </div>
+          <div>
+            <img
+              style="border-radius: 500px"
+              src="https://b.zmtcdn.com/data/o2_assets/e444ade83eb22360b6ca79e6e777955f1632716661.png"
+              alt="biriyani"
+              width="200px"
+            />
+            <h3>Fried Rice</h3>
+            <span>16% Off</span>
+          </div>
+          <div>
+            <img
+              style="border-radius: 500px"
+              src="https://b.zmtcdn.com/data/o2_assets/8dc39742916ddc369ebeb91928391b931632716660.png"
+              alt="biriyani"
+              width="200px"
+            />
+            <h3>Dosa</h3>
+            <span>40% Off</span>
+          </div>
+          <div>
+            <img
+              src="https://b.zmtcdn.com/data/o2_assets/2f34540e0b12058f5f8b9390c3a3fb4a1648972281.png"
+              alt="biriyani"
+              width="200px"
+            />
+            <h3>Shawarma</h3>
+            <span>50% Off</span>
+          </div>
+        </div>
+      </section>
+      <section
+        id="top-brands-div"
+        class="top-brands-div"
+        style="background-color: rgb(233, 237, 230)"
+      >
+        <h1>Top Brands</h1>
+        <div class="offers-list">
+          <div>
+            <img
+              style="border-radius: 500px"
+              src="https://b.zmtcdn.com/data/brand_creatives/logos/f94ff18ea7d97b4c0282dae14a524cc5_1611325445.png"
+              alt="biriyani"
+              width="200px"
+            />
+            <h3>Nightout</h3>
+            <span>20% Off</span>
+          </div>
+
+          <div>
+            <img
+              style="border-radius: 500px"
+              src="https://b.zmtcdn.com/data/brand_creatives/logos/c38f7540bcc5a38e918856ac06409056_1504531339.png"
+              alt="biriyani"
+              width="200px"
+            />
+            <h3>Pizza Hut</h3>
+            <span>10% Off</span>
+          </div>
+
+          <div>
+            <img
+              style="border-radius: 500px"
+              src="https://b.zmtcdn.com/data/brand_creatives/logos/0956194de2534812e820317cd4b0ccd3_1630505737.png?output-format=webp"
+              alt="biriyani"
+              width="200px"
+            />
+            <h3>DINDIGUL THALAPPAKATTI</h3>
+            <span>20% Off</span>
+          </div>
+
+          <div>
+            <img
+              style="border-radius: 500px"
+              src="https://b.zmtcdn.com/data/brand_creatives/logos/5caf38856d23347b351bb7abf97134d3_1545223343.png"
+              alt="biriyani"
+              width="200px"
+            />
+            <h3>Domino's PizzA</h3>
+            <span>25% Off</span>
+          </div>
+
+          <div>
+            <img
+              style="border-radius: 500px"
+              src="https://b.zmtcdn.com/data/brand_creatives/logos/f94ff18ea7d97b4c0282dae14a524cc5_1611325445.png"
+              alt="biriyani"
+              width="200px"
+            />
+            <h3>Nightout</h3>
+            <span>20% Off</span>
+          </div>
+        </div>
+      </section>
+
+      <div id="best-food-div" class="best-food-div">
+        <h1 class="">Best Foods</h1>
+        <section class="best-food-section">
+          <div class="food-main">
+            <img
+              style="border-radius: 10px"
+              src="https://b.zmtcdn.com/data/pictures/chains/4/3000274/8db9585bde3e1b5ba39ac76192de31a7_o2_featured_v2.jpg?output-format=webp"
+              alt="biriyani"
+              width="400"
+              height="300"
+            />
+            <div class="food-second">
+              <div class="title">
+                <span><b>Hotel Maya</b></span> <br />
+                <span> <i>South Indian</i></span>
+              </div>
+              <div class="price">Price : $1.5 for one</div>
+            </div>
+          </div>
+
+          <div class="food-main">
+            <img
+              style="border-radius: 10px"
+              src="https://b.zmtcdn.com/data/pictures/4/20462474/a01ae6733e643acef236e7b7eb1357a4_o2_featured_v2.jpg"
+              alt="biriyani"
+              width="400"
+              height="300"
+            />
+            <div class="food-second">
+              <div class="title">
+                <span><b>Geetha Mese</b></span> <br />
+                <span> <i>South Indian</i></span>
+              </div>
+              <div class="price">Price : $1.5 for one</div>
+            </div>
+          </div>
+
+          <div class="food-main">
+            <img
+              style="border-radius: 10px"
+              src="https://b.zmtcdn.com/data/pictures/2/20427502/4810145365ec07732d604e8a7e1628a3_o2_featured_v2.jpg?output-format=webp"
+              alt="biriyani"
+              width="400"
+              height="300"
+            />
+            <div class="food-second">
+              <div class="title">
+                <span><b>Tiffin Raja</b></span> <br />
+                <span> <i>South Indian</i></span>
+              </div>
+              <div class="price">Price : $1.5 for one</div>
+            </div>
+          </div>
+
+          <div class="food-main">
+            <img
+              style="border-radius: 10px"
+              src="https://b.zmtcdn.com/data/pictures/chains/0/3000040/4eb96d66040a1c63f195ffc46b8eb797_o2_featured_v2.jpg"
+              alt="biriyani"
+              width="400"
+              height="300"
+            />
+            <div class="food-second">
+              <div class="title">
+                <span><b>KFC Day</b></span> <br />
+                <span> <i>South Indian</i></span>
+              </div>
+              <div class="price">Price : $1.5 for one</div>
+            </div>
+          </div>
+
+          <div class="food-main">
+            <img
+              style="border-radius: 10px"
+              src="https://b.zmtcdn.com/data/pictures/1/19488491/4253e79d6ab15e2e21683f4b2c91b797_o2_featured_v2.jpg"
+              alt="biriyani"
+              width="400"
+              height="300"
+            />
+            <div class="food-second">
+              <div class="title">
+                <span><b>Domino's Pizza</b></span> <br />
+                <span> <i>American, Pasta</i></span>
+              </div>
+              <div class="price">Price : $3 for one</div>
+            </div>
+          </div>
+          <div class="food-main">
+            <img
+              style="border-radius: 10px"
+              src="https://b.zmtcdn.com/data/pictures/chains/4/3000044/d2f599f8f623c7ed92b43c97cbb2db0f_o2_featured_v2.jpg"
+              alt="biriyani"
+              width="400"
+              height="300"
+            />
+            <div class="food-second">
+              <div class="title">
+                <span><b>Fund Donate</b></span> <br />
+                <span> <i>Burger, Fast Food</i></span>
+              </div>
+              <div class="price">Price : $2.5 for one</div>
+            </div>
+          </div>
+
+          <div class="food-main">
+            <img
+              style="border-radius: 10px"
+              src="https://b.zmtcdn.com/data/pictures/chains/5/3002455/8b5844b9e5a386aabb224d111b4182cf_o2_featured_v2.jpg"
+              alt="biriyani"
+              width="400"
+              height="300"
+            />
+            <div class="food-second">
+              <div class="title">
+                <span><b>Border Ram</b></span> <br />
+                <span> <i>Barota, Biriyani</i></span>
+              </div>
+              <div class="price">Price : $6.1 for one</div>
+            </div>
+          </div>
+          <div class="food-main">
+            <img
+              style="border-radius: 10px"
+              src="https://b.zmtcdn.com/data/pictures/2/19098952/c26157705d0d58a4ec23ad5294e8d457_o2_featured_v2.jpg"
+              alt="biriyani"
+              width="400"
+              height="300"
+            />
+            <div class="food-second">
+              <div class="title">
+                <span><b>Selvamani Canteen</b></span> <br />
+                <span> <i>South Indian, Biryani</i></span>
+              </div>
+              <div class="price">Price : $3.8 for one</div>
+            </div>
+          </div>
+
+          <div class="food-main">
+            <img
+              style="border-radius: 10px"
+              src="https://b.zmtcdn.com/data/pictures/3/19125033/7a3962be5ac0055f582fb71d98c15124_o2_featured_v2.jpg"
+              alt="biriyani"
+              width="400"
+              height="300"
+            />
+            <div class="food-second">
+              <div class="title">
+                <span><b>KDP Biriyani</b></span> <br />
+                <span> <i>Chinese, Biryani</i></span>
+              </div>
+              <div class="price">Price : $1.5 for one</div>
+            </div>
+          </div>
+
+          <div class="food-main">
+            <img
+              style="border-radius: 10px"
+              src="https://b.zmtcdn.com/data/pictures/chains/2/20079532/9b8c3ccbe4739687bc08f111eb090dc1_o2_featured_v2.jpg"
+              alt="biriyani"
+              width="400"
+              height="300"
+            />
+            <div class="food-second">
+              <div class="title">
+                <span><b>World Cake shop</b></span> <br />
+                <span> <i>Cake, Ice Cream</i></span>
+              </div>
+              <div class="price">Price : $5.5 for one</div>
+            </div>
+          </div>
+
+          <div class="food-main">
+            <img
+              style="border-radius: 10px"
+              src="https://b.zmtcdn.com/data/pictures/chains/1/3000641/ec17531de5fc0a714256ead538576057_o2_featured_v2.jpg"
+              alt="biriyani"
+              width="400"
+              height="300"
+            />
+            <div class="food-second">
+              <div class="title">
+                <span><b>KOLA DaDa</b></span> <br />
+                <span> <i>Ice Cream, Desserts</i></span>
+              </div>
+              <div class="price">Price : $3.22 for one</div>
+            </div>
+          </div>
+
+          <div class="food-main">
+            <img
+              style="border-radius: 10px"
+              src="https://b.zmtcdn.com/data/pictures/3/19983973/fb4d88c0ea59c894828d387e3266fe57_o2_featured_v2.jpg"
+              alt="biriyani"
+              width="400"
+              height="300"
+            />
+            <div class="food-second">
+              <div class="title">
+                <span><b>Barbequeen Restaurant</b></span> <br />
+                <span> <i>Biriyani, BBQ</i></span>
+              </div>
+              <div class="price">Price : $9.22 for one</div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="main-footer">
+        <h2>Foodie Shop</h2>
+        <div class="footer-lists">
+          <ul>
+            <li>
+              <b>About Foodie Shop</b>
+            </li>
+            <br />
+            <li>Who we Are</li>
+            <li>Work With Us</li>
+            <li>Our Partners</li>
+            <li>Contact Us</li>
+          </ul>
+
+          <ul>
+            <li>
+              <b>For Restaurants</b>
+            </li>
+            <br />
+            <li>Apps For All</li>
+            <li>Demand orders</li>
+            <li>Our Partners</li>
+            <li>Contact Us</li>
+          </ul>
+          <ul>
+            <li>
+              <b>For Restaurants</b>
+            </li>
+            <br />
+            <li>Apps For All</li>
+            <li>Demand orders</li>
+            <li>Our Partners</li>
+            <li>Contact Us</li>
+          </ul>
+          <ul>
+            <li>
+              <b>About Foodie Shop</b>
+            </li>
+            <br />
+            <li>Who we Are</li>
+            <li>Work With Us</li>
+            <li>Our Partners</li>
+            <li>Contact Us</li>
+          </ul>
+          <ul>
+            <li>
+              <b>About Foodie Shop</b>
+            </li>
+            <br />
+            <li>Who we Are</li>
+            <li>Work With Us</li>
+            <li>Our Partners</li>
+            <li>Contact Us</li>
+          </ul>
+          <ul>
+            <li>
+              <b>About Foodie Shop</b>
+            </li>
+            <br />
+            <li>Who we Are</li>
+            <li>Work With Us</li>
+            <li>Our Partners</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>
+          By continuing past this page, you agree to our Terms of Service,
+          Cookie Policy, Privacy Policy and Content Policies. All trademarks are
+          properties of their respective owners. 2008-2023 © Foodie Shop™ Ltd.
+          All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
